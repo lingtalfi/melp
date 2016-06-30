@@ -1,5 +1,4 @@
 Melp
-=========
 Simple memory assistant for your computer.
 
 
@@ -84,11 +83,45 @@ Melp:
 Ouch, forgot to mention, I work on mac and melp is based on the mac's "open" command, which can open either a directory
 or a file.
 I don't own a pc with windows anymore, so windows users, you will have to adapt this script by yourselves.
-Fortunately this is a ridiculously small script (22 lines including comments and visual whitespaces).
+Fortunately this is a ridiculously small script (26 lines including comments and visual whitespaces).
 Same for linux users.
 
 
 
+
+
+How to install?
+------------------
+Oh, and I forgot to explain how to install it, in case you don't know.
+So you copy the melp.sh script into a directory that is accessible to your PATH.
+
+On mac, in the terminal, you can echo $PATH to see what directories it contains.
+Then make it executable:
+
+```
+cd /where_you_put/the_melp_script
+chmod u+x melp.sh
+```
+
+Then to type melp instead of melp.sh, create a symlink:
+
+```
+ln -s melp.sh melp
+```
+
+That's it, enjoy ;)
+
+
+
+
+History Log
+------------------
+    
+- 1.0.0 -- 2016-06-30
+
+    - initial commit
+    
+    
 
 
 
