@@ -109,7 +109,11 @@ Then to type melp instead of melp.sh, create a symlink:
 ln -s melp.sh melp
 ```
 
+Then the last thing you want to do is open the melp.sh script and replace the ONE dir's path with yours.
+
+
 That's it, enjoy ;)
+
 
 
 
