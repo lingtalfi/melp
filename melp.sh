@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # change this line to your melp's ONE directory, see doc for more info
-dir="/Volumes/Macintosh HD 2/it/_mysysadmin"
+dir="/pathto/melp"
 soft="$1"
 
 

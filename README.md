@@ -120,7 +120,11 @@ That's it, enjoy ;)
 
 History Log
 ------------------
-    
+
+- 1.1.0 -- 2017-05-03
+
+    - update path to melp dir
+
 - 1.0.0 -- 2016-06-30
 
     - initial commit
